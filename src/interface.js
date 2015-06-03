@@ -30,6 +30,4 @@ $(document).ready(function() {
     $('#temperature').text(thermo.temperature);
   });
 
-
-
 });
