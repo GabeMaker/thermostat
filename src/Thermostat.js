@@ -40,11 +40,11 @@ Thermostat.prototype.energyRating = function() {
   }
 
   if (this.temperature < 25) {
-    return 'orange';
+    return 'darkorange';
   }
 
   if (this.temperature > 24) {
-    return 'red';
+    return 'firebrick';
   }
 
 };
